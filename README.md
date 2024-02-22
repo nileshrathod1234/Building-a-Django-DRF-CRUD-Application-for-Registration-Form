@@ -39,6 +39,18 @@ cd [repository name]
      * make a GET request to http://127.0.0.1:8000/api/registrations/?search={query}, where {query} is the name or date of birth you want to search for.
   *  pagination
      * the API will automatically divide the results into pages. You can navigate through them by adding a page parameter in your GET request, like http://127.0.0.1:8000/api/registrations/?page=2.
+
+ ## Admin Interface
+To manage educational qualifications and skills, use the Django admin interface:
+
+* Navigate to http://127.0.0.1:8000/admin/
+* Login using the superuser credentials
+* You can add, edit, or delete education and skill entries here
+
+ ## Testing the Application
+     * Run your tests to ensure everything is working as expected:
+           * python manage.py test registration_app
+
      
 
     
