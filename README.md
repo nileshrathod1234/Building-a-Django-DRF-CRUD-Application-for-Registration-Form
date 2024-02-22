@@ -49,7 +49,7 @@ To manage educational qualifications and skills, use the Django admin interface:
 
  ## Testing the Application
      * Run your tests to ensure everything is working as expected:
-           * python manage.py test registration_app
+        python manage.py test registration_app
 
      
 
