@@ -48,9 +48,10 @@ To manage educational qualifications and skills, use the Django admin interface:
 * You can add, edit, or delete education and skill entries here
 
  ## Testing the Application
-     * Run your tests to ensure everything is working as expected:
-        python manage.py test registration_app
+ * Run your tests to ensure everything is working as expected:
+    python manage.py test registration_app
 
+       
      
 
     
