@@ -11,7 +11,7 @@ This project is a Django REST Framework (DRF) application for managing a registr
 * Django REST Framework
 # Installation
 1. Clone the repository:
-   git clone [URL to your repository]
+   git clone [URL to repository]
 cd [repository name]
 2. Install the required packages:
    pip install -r requirements.txt
