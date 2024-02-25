@@ -31,12 +31,12 @@ cd [repository name]
   *  Retrieving Registration Entries:
      * Make a GET request to the same endpoint to retrieve all registrations.
   *  Updating a Registration Entry:
-     * Send a PUT or PATCH request to http://127.0.0.1:8000/api/registrations/{id}/, where {id} is the ID of the registration you want to update.
+     * Send a PUT or PATCH request to http://127.0.0.1:8000/api/registrations/id/, where id is the ID of the registration you want to update.
   *  Deleting a Registration Entry:
-     * Send a DELETE request to http://127.0.0.1:8000/api/registrations/{id}/.
+     * Send a DELETE request to http://127.0.0.1:8000/api/registrations/id/.
   ## Search and Pagination
   *  searching
-     * make a GET request to http://127.0.0.1:8000/api/registrations/?search={query}, where {query} is the name or date of birth you want to search for.
+     * make a GET request to http://127.0.0.1:8000/api/registrations/?search=query, where query is the name or date of birth you want to search for.
   *  pagination
      * the API will automatically divide the results into pages. You can navigate through them by adding a page parameter in your GET request, like http://127.0.0.1:8000/api/registrations/?page=2.
 
